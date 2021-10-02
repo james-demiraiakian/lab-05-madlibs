@@ -6,7 +6,7 @@ const pronounField = document.getElementById('pronoun-field');
 const locaField = document.getElementById('loca-field');
 const nounField = document.getElementById('noun-field');
 const pronounField2 = document.getElementById('pronoun2-field');
-const pronounField3= document.getElementById('pronoun3-field');
+const pronounField3 = document.getElementById('pronoun3-field');
 const pronounField4 = document.getElementById('pronoun4-field');
 const nounField2 = document.getElementById('noun2-field');
 const pronounField5 = document.getElementById('pronoun5-field');
@@ -30,7 +30,7 @@ const verb2 = document.getElementById('verb2');
 const pronoun6 = document.getElementById('pronoun6');
 const noun3 = document.getElementById('noun3');
 
-
+const story = document.getElementById('story');
 
 // initialize global state
 
@@ -76,9 +76,6 @@ revealStory.addEventListener('click', () => {
     let newNoun3 = nounField3.value;
     noun3.textContent = newNoun3;
 
-  });
+    story.classList.remove('hidden');
 
-
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+});

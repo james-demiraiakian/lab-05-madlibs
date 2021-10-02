@@ -15,8 +15,8 @@
 
 }
 
-#button {
-    
+.hidden {
+    display: none;
 }
 
 body {
